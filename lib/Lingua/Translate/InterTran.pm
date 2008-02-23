@@ -90,7 +90,7 @@ sub translate {
             _tag => 'textarea',
             name => 'translation',
         )->attr('_content')->[0];
-    }
+    };
     return $translated if $translated;
     
     # fall back to parsing it with a regex
