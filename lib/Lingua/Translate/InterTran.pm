@@ -125,11 +125,11 @@ for L<InterTran|http://www.tranexp.com:2000/Translate/result.shtml>.
      dest     => 'en',
  );
 
- # prints 'ÉG vilja til hafa kynlíf í kvöld'
+ # prints 'E<Eacute>G vilja til hafa kynlE<iacute>f E<iacute> kvE<ouml>ld'
  print $en2is->translate('I want to have sex tonight') . "\n";
 
  # prints 'Myself yearn snuggle up to pursue sex this evening'
- print $is2en->translate('Mig langar að stunda kynlíf í kvöld') . "\n";
+ print $is2en->translate('Mig langar að stunda kynlE<iacute>f E<iacute> kvE<ouml>ld') . "\n";
 
 =head1 DESCRIPTION
 
