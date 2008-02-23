@@ -1,5 +1,5 @@
 0.03 Sat Feb 23 19:08:53 GMT 2008
-    - Remove INSTALL and Makefile
+    - Remove Makefile
     - Escape non-ascii chars in pod
 
 0.02 Sat Feb 23 15:57:57 GMT 2008
