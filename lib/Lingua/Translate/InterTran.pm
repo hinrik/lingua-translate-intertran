@@ -8,7 +8,7 @@ use LWP::UserAgent ();
 use URI ();
 use base qw(Lingua::Translate);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 # languages supported by InterTran as of February 2008
 my %lang = (
