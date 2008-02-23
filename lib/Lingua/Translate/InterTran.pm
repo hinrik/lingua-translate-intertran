@@ -139,8 +139,6 @@ at L<http://www.tranexp.com:2000/Translate/result.shtml>. The author felt
 compelled to write a CPAN module for it since it is the only online translator
 that can handle his native language, Icelandic (albeit amusingly poorly).
 
-Input text is assumed to be utf8-encoded. Output text will be utf8-encoded too.
-
 =head1 AUTHOR
 
 Hinrik E<Ouml>rn SigurE<eth>sson, hinrik.sig@gmail.com
