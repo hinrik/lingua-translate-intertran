@@ -9,6 +9,7 @@ WriteMakefile(
     LICENSE       => 'perl',
     PREREQ_PM     => {
         # lib/Lingua/Translate/InterTran.pm
+        'Encode'            => '0',
         'Lingua::Translate' => '0.08',
         'LWP::UserAgent'    => '0',
         'URI'               => '0',

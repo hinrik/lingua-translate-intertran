@@ -1,3 +1,8 @@
+0.04 Sun Feb 24 02:06:32 GMT 2008
+    - Doc fix
+    - Add Encode dependency
+    - Try to fix non-ascii stuff for real
+
 0.03 Sat Feb 23 19:08:53 GMT 2008
     - Remove Makefile
     - Escape non-ascii chars in pod

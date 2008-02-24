@@ -8,7 +8,7 @@ use LWP::UserAgent ();
 use URI ();
 use base qw(Lingua::Translate);
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 # languages supported by InterTran as of February 2008
 my %lang = (
@@ -107,7 +107,7 @@ __END__
 =head1 NAME
 
 Lingua::Translate::InterTran - A L<Lingua::Translate|Lingua::Translate> backend
-for L<InterTran|http://www.tranexp.com:2000/Translate/result.shtml>.
+for InterTran.
 
 =head1 SYNOPSIS
 
@@ -125,11 +125,11 @@ for L<InterTran|http://www.tranexp.com:2000/Translate/result.shtml>.
      dest     => 'en',
  );
 
- # prints 'E<Eacute>G vilja til hafa kynlE<iacute>f E<iacute> kvE<ouml>ld'
+ # prints 'ÉG vilja til hafa kynlíf í kvöld'
  print $en2is->translate('I want to have sex tonight') . "\n";
 
  # prints 'Myself yearn snuggle up to pursue sex this evening'
- print $is2en->translate('Mig langar aÃ° stunda kynlE<iacute>f E<iacute> kvE<ouml>ld') . "\n";
+ print $is2en->translate('Mig langar að stunda kynlíf i kvöld') . "\n";
 
 =head1 DESCRIPTION
 
