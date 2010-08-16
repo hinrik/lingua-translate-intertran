@@ -8,8 +8,6 @@ use LWP::UserAgent ();
 use URI ();
 use base qw(Lingua::Translate);
 
-our $VERSION = '0.04';
-
 # languages supported by InterTran as of February 2008
 my %lang = (
     'bg'    => ['bul', 'cp1251'],     # Bulgarian (CP 1251)
@@ -106,8 +104,7 @@ __END__
 
 =head1 NAME
 
-Lingua::Translate::InterTran - A L<Lingua::Translate|Lingua::Translate> backend
-for InterTran.
+Lingua::Translate::InterTran - A L<Lingua::Translate|Lingua::Translate> backend for InterTran.
 
 =head1 SYNOPSIS
 

@@ -1,3 +1,6 @@
+{{$NEXT}}
+    - Use Dist::Zilla
+
 0.04 Sun Feb 24 02:06:32 GMT 2008
     - Doc fix
     - Add Encode dependency
