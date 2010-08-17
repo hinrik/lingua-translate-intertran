@@ -1,6 +1,3 @@
-Makefile
-Makefile.old
 Lingua-Translate-InterTran-*
-blib
-pm_to_blib
 cover_db
+.build
