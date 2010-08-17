@@ -1,7 +1,7 @@
 package Lingua::Translate::InterTran;
 
 use strict;
-use warnings;
+use warnings FATAL => 'all';
 use Carp qw(croak);
 use Encode qw(encode decode);
 use LWP::UserAgent ();
