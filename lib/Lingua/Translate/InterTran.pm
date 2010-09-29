@@ -103,7 +103,7 @@ sub translate {
 
 =head1 NAME
 
-Lingua::Translate::InterTran - A L<Lingua::Translate|Lingua::Translate> backend for InterTran.
+Lingua::Translate::InterTran - A Lingua::Translate backend for InterTran
 
 =head1 SYNOPSIS
 
